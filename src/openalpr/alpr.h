@@ -42,7 +42,7 @@ namespace alpr
   
   struct AlprChar
   {
-    AlprCoordinate corners[4];
+    AlprCoordinate corners[2];
     float confidence;
     std::string character;
   };
